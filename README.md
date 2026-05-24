@@ -49,7 +49,7 @@ The project follows an ETL pipeline:
 
 - **Extract** — paginated scraping of 50 pages using requests and BeautifulSoup. Includes error handling with timeout and status code checks
 - **Transform** — stripping currency symbols, casting types, converting GBP to USD (rate fixed as of May 2026), mapping text ratings to integers
-- **Load** — aggregated statistics and charts saved to `assets/`
+- **Load** — saving results to CSV and charts to `assets/`
 
 ## Sample Visualizations
 
