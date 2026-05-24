@@ -4,3 +4,4 @@ __pycache__/
 .ipynb_checkpoints/
 scraping.log
 .DS_Store
+*.csv
