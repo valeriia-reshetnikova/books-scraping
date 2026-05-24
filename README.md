@@ -17,10 +17,8 @@ Scraping and analysis of 1000 books from [books.toscrape.com](https://books.tosc
 Books/
 ├── 01_scraping.py        # Extract — scrapes 50 pages (~1000 books)
 ├── 02_cleaning.py        # Transform — cleans and transforms raw data
-├── 03_analytics.py       # Load — statistics and key insights
-├── 04_visualization.py   # builds all charts
-├── books_data.csv        # raw data
-├── books_cleaned.csv     # cleaned data
+├── 03_analytics.py       # Analyze — statistics and key insights
+├── 04_visualization.py   # builds all charts  
 └── assets/
     ├── 01_price_by_rating.png
     ├── 02_price_distribution.png
@@ -55,11 +53,11 @@ The project follows an ETL pipeline:
 
 ## Sample Visualizations
 
-![Average price by rating](Books/01_price_by_rating.png)
-![Price distribution](Books/02_price_distribution.png)
-![Books count by rating](Books/03_books_count_by_rating.png)
-![Price boxplot](Books/04_price_boxplot.png)
-![Top 10 most expensive](Books/05_top_10_expensive.png)
+![Average price by rating](assets/01_price_by_rating.png)
+![Price distribution](assets/02_price_distribution.png)
+![Books count by rating](assets/03_books_count_by_rating.png)
+![Price boxplot](assets/04_price_boxplot.png)
+![Top 10 most expensive](assets/05_top_10_expensive.png)
 
 ## Findings
 
