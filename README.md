@@ -55,11 +55,11 @@ The project follows an ETL pipeline:
 
 ## Sample Visualizations
 
-![Average price by rating](assets/01_price_by_rating.png)
-![Price distribution](assets/02_price_distribution.png)
-![Books count by rating](assets/03_books_count_by_rating.png)
-![Price boxplot](assets/04_price_boxplot.png)
-![Top 10 most expensive](assets/05_top_10_expensive.png)
+![Average price by rating](Books/01_price_by_rating.png)
+![Price distribution](Books/02_price_distribution.png)
+![Books count by rating](Books/03_books_count_by_rating.png)
+![Price boxplot](Books/04_price_boxplot.png)
+![Top 10 most expensive](Books/05_top_10_expensive.png)
 
 ## Findings
 
