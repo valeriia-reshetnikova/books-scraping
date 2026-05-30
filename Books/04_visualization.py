@@ -26,7 +26,7 @@ for container in ax.containers:
 plt.title('Average book price by Rating')
 plt.xlabel('Rating (Stars)')
 plt.ylabel('Average Price USD')
-plt.savefig('01_price_by_rating.png')
+plt.savefig('assets/01_price_by_rating.png')
 print("Saved: '01_price_by_rating.png'")
 plt.close()
 
@@ -35,7 +35,7 @@ sns.histplot(df['Price_USD'], bins = 15, kde = True, color = 'steelblue')
 plt.title('Distribution of Book Prices')
 plt.xlabel('Price USD')
 plt.ylabel('Count')
-plt.savefig('02_price_distribution.png')
+plt.savefig('assets/02_price_distribution.png')
 print("Saved: '02_price_distribution.png'")
 plt.close()
 
@@ -47,7 +47,7 @@ for container in ax.containers:
 plt.title('Number of Books by Rating')
 plt.xlabel('Rating (Stars)')
 plt.ylabel('Total Books')
-plt.savefig('03_books_count_by_rating.png')
+plt.savefig('assets/03_books_count_by_rating.png')
 print("Saved: '03_books_count_by_rating.png'")
 plt.close()
 
@@ -56,7 +56,7 @@ sns.boxplot(data = df, x = 'Rating', y = 'Price_USD', hue = 'Rating', palette = 
 plt.title('Price Distribution Across Ratings (Boxplot)')
 plt.xlabel('Rating (Stars)')
 plt.ylabel('Price USD')
-plt.savefig('04_price_boxplot.png')
+plt.savefig('assets/04_price_boxplot.png')
 print("Saved: '04_price_boxplot.png'")
 plt.close()
 
@@ -68,7 +68,7 @@ for container in ax.containers:
 plt.title('Top 10 Most Expensive Books on the Website')
 plt.xlabel('Price USD')
 plt.ylabel('', fontsize = 11)
-plt.savefig('05_top_10_expensive.png', dpi = 300, bbox_inches = 'tight')
+plt.savefig('assets/05_top_10_expensive.png', dpi = 300, bbox_inches = 'tight')
 
 print("Saved: '05_top_10_expensive.png'")
 plt.close()
